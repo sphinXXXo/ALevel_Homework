@@ -1,0 +1,39 @@
+.warquote {
+    color: blue;
+}
+.list a[href^='https']{
+    color: red;
+}
+.list li:nth-child(n+4){
+    background-color: green;
+}
+ul + p{
+    font-size: 26px;
+}
+#greycol{
+    color: grey;
+}
+div p:nth-child(1){
+    color: red;
+}
+.text-box h3:nth-child(1){
+    color: pink;
+}
+.text-box h3 + p:nth-child(n+3){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.bg-box{
+    border: 5px solid red;
+    background-image: url(img/ejik.png), url(img/grass.png), url(img/house.jpg), url(img/lamp.png), url(img/ponchik.png);
+    width: 1000px;
+    height: 700px;
+    background-size: 50px, 400px, 500px, 50px, 50px;
+    background-position: left, bottom, center, top, right;
+    background-repeat: repeat-y, repeat-x, no-repeat, repeat-x, repeat-y;
+    background-clip: border-box, border-box, border-box, border-box, border-box, border-box;
+    background-color: green;
+    /* у пончика есть белый фон */
+}
